@@ -1,5 +1,5 @@
 h1 {
-    text-align: center; /*  */
+    text-align: center;
     border: 3px solid black;
     font-size: 65px;
     font-weight: 100;
@@ -21,4 +21,27 @@ p {
 
 ul li {
     font-size: 22px;
+}
+
+#img_01 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 425px;
+}
+
+img {
+    width: 500px;
+}
+
+.row {
+    display: flex;
+}
+.column {
+    flex: 33.33%;
+    padding: 3px; 
+}
+
+a:hover {
+    color: red;
 }

@@ -4,23 +4,27 @@
 <html lang="es"> 
     <!-- <head>: elemento que incluye información acerca de la página la cual no va a ser mostrada al usuario -->
     <head> 
-        <!-- <meta>: etiqueta que describe metadatos (datos que proveen información de otros datos) de un documento html -->
+        <!-- <meta>: elemento que describe metadatos (datos que proveen información de otros datos) de un documento html -->
         <!-- charset: atributo que define la codificación de carácteres utilizada -->
         <meta charset="utf-8"> 
-        <!-- <title>: Titulo de la pestaña -->    
+        <!-- <title>: elemento que nos permite agregar el título de la pestaña -->    
         <title>Prototipo Página web - Proyecto</title> 
         <!-- <link>: etiqueta que permite realizar un vínculo con una página de estilos -->
         <link rel="stylesheet" href="css/estilos.css">    
     </head>
-    <!--Cuerpo de la página, donde se estructura toda la página web-->
+    <!-- <body>: Cuerpo de la página, lo que contiene todo el contenido visible del documento html -->
     <body> 
-        <!--Titulo principal: el número corresponde a su tamaño (a menor número mayor tamaño)-->        
+        <!-- <h1>: elemento que agrega el encabezado de mayor tamaño -->        
         <h1>Escáner y Guía de Suplementos Deportivos</h1> 
+        <!-- <img>: etiqueta que nos permite agregar imágenes a la página -->
+        <img id="img_01" src="images/suplemento1.png" alt="Pendiente">
+        <!-- <h2>: elemento que agrega el encabezado de segundo mayor tamaño -->    
         <h2>Objetivos</h2>
-        <!--Parrafo-->
+        <!-- <p>: elemtento que agrega un párrafo-->
         <p>Objetivo general: </p> 
-        <!-- creación de listas -->
+        <!-- <ul>: elemento que nos permite agregar listas no ordenadas -->
         <ul> 
+            <!-- <li>: elemento que nos permite agregar un elemento de lista -->
             <li>Desarrollar una aplicación móvil que ejerza como una guía para el consumidor de 
                 suplementos deportivos.</li>
         </ul>
@@ -42,12 +46,16 @@
         <h2>Objetivo del proyecto</h2>
         <p>...</p>
         
+        <!-- <a>: elemento que nos permite agregar un hipervínculo -->
         <p>Para más información acerca de nuestro proyecto ingresa a: <a href="http://uvirtual-t.usbbog.edu.co:8080/mahara/view/view.php?id=5319">Mahara Proyecto Integrador</a> </p>
-    <body>
-
-        <a href="https://www.freepik.es/vector-gratis/nutricion-deportiva-dieta-mejorar-rendimiento-deportivo-vitaminas-proteinas-suplementos-deportes-fuerza-halterofilia-culturismo-ilustracion-metafora-concepto-aislado-vector_11663531.htm#query=suplementos%20deportivos&position=12&from_view=keyword"><img src="images/suplemento1.png" width="500"> </a>
-        <a href="https://stock.adobe.com/co/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=supplements%2C+protein+aplication&order=relevance&safe_search=1&search_page=1&search_type=usertyped&acp=&aco=supplements%2C+protein+aplication&get_facets=0&asset_id=517780008"><img src="images/suplemento2.PNG" width="550"></a>
-        <a href="https://stock.adobe.com/co/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=supplements%2C+protein+aplication&order=relevance&safe_search=1&search_page=1&search_type=usertyped&acp=&aco=supplements%2C+protein+aplication&get_facets=0&asset_id=334359088"><img src="images/suplemento3.PNG" width="500"></a>
-
+        
+        <div class="row">
+            <div class="column">
+                <img id="img_02" src="images/suplemento2.PNG">
+            </div>
+            <div class="column">
+                <img id="img_03" src="images/suplemento3.PNG">
+            </div>
+        </div>
     </body>
 </html>
